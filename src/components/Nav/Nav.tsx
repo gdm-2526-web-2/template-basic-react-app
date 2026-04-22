@@ -16,10 +16,15 @@ const Nav = () => {
             <CustomLink link="#" label="Home" />
           </li>
           <li>
+            <CustomLink link="#" label="Articles" />
+          </li>
+          <li>
             <CustomLink link="#" label="About" />
           </li>
           <li>
-            <Button type="secondary" link="tel:+1234567890">Call us</Button>
+            <Button type="secondary" link="tel:+1234567890">
+              Call us
+            </Button>
           </li>
         </ul>
       </nav>
